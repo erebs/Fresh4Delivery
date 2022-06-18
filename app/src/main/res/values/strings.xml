@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fresh4Delivery</string>
+    <string name="app_url" translatable="false">https://ebshosting.co.in/</string>
+    <string name="api_url" translatable="false">https://ebshosting.co.in/api/</string>
+    <string name="site_url_alt" translatable="false">https://ebshosting.co.in</string>
+    <string name="site_url" translatable="false">https://fresh4delivery.com/app/</string>
+    <string name="sms_url" translatable="false">http://sms.erebs.in/api/sms_api.php?username=fresh4delivery&amp;api_password=59rncdgdtj6&amp;type=2&amp;template_id=1207164010963173165</string>
+
+
+    //Others
+    <string name="terms_policy_text" translatable="false">By continuing, you agree to our\nTerms of Services and Privacy Policy</string>
+    <string name="hint_mobile" translatable="false">Enter your Phone Number</string>
+    <string name="hint_email_mobile" translatable="false">Enter  your Email or Phone Number</string>
+    <string name="hint_pass" translatable="false">Enter your Password</string>
+    <string name="forgot_btn" translatable="false">Reset Password ?</string>
+    <string name="title_activity_cloc" translatable="false">ClocActivity</string>
+</resources>

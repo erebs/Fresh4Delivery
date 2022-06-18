@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.essam.simpleplacepicker" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" /> <!-- Required to show current location -->
+10-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:5:5-67
+10-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:5:22-64
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:6:5-81
+11-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:7:22-76
+13
+14    <meta-data
+14-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:8:5-9:65
+15        android:name="com.google.android.gms.version"
+15-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:8:16-61
+16        android:value="@integer/google_play_services_version" />
+16-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:9:9-62
+17
+18    <application
+18-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:11:5-29:19
+19        android:allowBackup="true"
+19-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:12:9-35
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:14:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true" >
+23-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:16:9-35
+24        <meta-data
+24-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:8:5-9:65
+25            android:name="com.google.android.gms.version"
+25-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:8:16-61
+26            android:value="@integer/google_play_services_version" />
+26-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:9:9-62
+27
+28        <activity
+28-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:21:9-24:20
+29            android:name="com.essam.simpleplacepicker.MapActivity"
+29-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:21:19-46
+30            android:theme="@style/AppTheme.NoActionBar"
+30-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:23:13-56
+31            android:windowSoftInputMode="adjustPan" >
+31-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:22:13-52
+32        </activity>
+33
+34        <service
+34-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:26:9-28:40
+35            android:name="com.essam.simpleplacepicker.utils.FetchAddressIntentService"
+35-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:27:13-60
+36            android:exported="false" />
+36-->C:\Users\jissa\AndroidStudioProjects\Fresh4Delivery\Fresh4Delivery\SimplePlacePicker-master\src\main\AndroidManifest.xml:28:13-37
+37    </application>
+38
+39</manifest>

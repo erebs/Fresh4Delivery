@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:onClick="GoBack"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:paddingLeft="0dp">
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_arrow_left_circle_line"
+                android:padding="0dp"
+                app:tint="@color/grey_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Login"
+                android:textColor="@color/grey_text"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Hello Again !"
+                    android:textColor="@color/grey_text"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="50dp"
+                    android:text="Welcome back you’ve\nbeen missed !"
+                    android:textColor="@color/grey_text"
+                    android:textSize="15dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:visibility="gone"
+                        android:src="@drawable/flag"
+                        android:padding="0dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/grey_text"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/login_more"
+                        android:hint="@string/hint_email_mobile"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="@color/input_hint"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/nil"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:visibility="gone"
+                        android:src="@drawable/flag"
+                        android:padding="0dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/login_pass"
+                        android:textColor="@color/grey_text"
+                        android:layout_marginEnd="10dp"
+                        android:hint="@string/hint_pass"
+                        android:inputType="textPassword"
+                        android:textColorHint="@color/input_hint"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/nil"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="right"
+                    android:padding="10dp"
+                    android:onClick="ForgotBtn"
+                    android:text="@string/forgot_btn"
+                    android:textColor="@color/grey_text"
+                    android:textSize="12dp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/btn"
+                    android:clickable="true"
+                    android:onClick="LoginBtn"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Login"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:layout_gravity="center"/>
+
+                </FrameLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/terms_policy_text"
+                android:textColor="@color/grey_text"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/progress_h"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

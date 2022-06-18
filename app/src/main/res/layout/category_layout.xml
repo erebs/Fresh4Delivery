@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/cat_bg"
+    android:clickable="true"
+    android:background="@drawable/cat_bg"
+    android:layout_height="40dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:id="@+id/cat_name"
+        android:text="Caterogy Name"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"/>
+
+</LinearLayout>

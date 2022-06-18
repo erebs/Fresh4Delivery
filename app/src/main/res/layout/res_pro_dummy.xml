@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/card_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/grey_text"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_text"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:background="@color/grey_text"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_text"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:background="@color/grey_text"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_text"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:background="@color/grey_text"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_green"
+                android:id="@+id/res_pro_qtyview"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/res_pro_add"
+                    android:src="@drawable/ic_add"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="1"
+                    android:id="@+id/res_pro_qty"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/res_pro_minus"
+                    android:src="@drawable/ic_minus"
+                    android:layout_marginEnd="3dp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:background="@drawable/btn_grey_og"
+                android:id="@+id/res_pro_addbtn"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/veg"
+        android:id="@+id/res_pro_isveg"
+        android:layout_margin="20dp"
+        android:layout_gravity="right|top"
+        app:tint="@color/grey_text" />
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:background="#eee"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:src="@drawable/veg"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/items_veg"
+        android:layout_gravity="right|top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/input_hint"
+        android:textStyle="bold"
+        android:id="@+id/items_qty"
+        android:text="1 x"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/items_name"
+        android:text="Unitname"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_green"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:id="@+id/items_price"
+        android:text="₹150"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_text"
+        android:textSize="12dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:id="@+id/items_offer"
+        android:text="₹180"/>
+
+
+</LinearLayout>
